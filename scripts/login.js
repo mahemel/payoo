@@ -32,7 +32,7 @@ loginBtn.addEventListener('click', function() {
     console.log(userDetail)
 
     if(userDetail) {
-        window.location.assign('/home.html?user=' + userDetail.name)
+        window.location.assign('home.html?user=' + userDetail.name)
     } 
     else {
         alert('Your phone number or otp is not correct');
