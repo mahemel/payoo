@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo</title>
+    <title>Payoo | Login</title>
 
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
@@ -30,16 +30,16 @@
     </div>
 
     <div class="form mt-8">
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-3xl">
+        <div class="card bg-base-100 w-full shrink-0 shadow mx-auto rounded-3xl">
             <div class="card-body">
                 <fieldset class="fieldset">
-                    <label class="label text-neutral text-base font-medium">Mobile Number</label>
-                    <input type="text" class="input w-full rounded-full font-light text-base bg-base-200 border-0 h-[52px] px-4" placeholder="Enter your 11 digit number" maxlength="11" minlength="11" />
+                    <label class="label text-neutral text-base font-medium" for="phone">Mobile Number</label>
+                    <input type="text" id="phone" class="input w-full rounded-full font-light text-base bg-base-200 border-0 h-[52px] px-4" placeholder="Enter your 11 digit number" maxlength="11" minlength="11" />
 
-                    <label class="label text-neutral text-base font-medium mt-3">4 Digit Pin</label>
-                    <input type="text" class="input w-full rounded-full font-light text-base bg-base-200 border-0 h-[52px] px-4" placeholder="Enter 4 Digit Pin" maxlength="4" minlength="4" />
+                    <label for="otp" class="label text-neutral text-base font-medium mt-3">4 Digit Pin</label>
+                    <input id="otp" type="password" class="input w-full rounded-full font-light text-base bg-base-200 border-0 h-[52px] px-4" placeholder="Enter 4 Digit Pin" maxlength="4" minlength="4" />
 
-                    <button class="btn btn-primary mt-4 rounded-full h-[52px] text-xl font-semibold text-white">Login</button>
+                    <button id="loginBtn" class="btn btn-primary mt-4 rounded-full h-[52px] text-xl font-semibold text-white">Login</button>
                 </fieldset>
             </div>
         </div>
