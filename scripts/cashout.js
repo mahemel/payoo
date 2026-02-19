@@ -21,8 +21,10 @@ cashoutBtn.addEventListener('click', function(){
 
     if(pinNumber === '1234') {
 
-        setBalance(newBalance);
         alert('Cashout Successful!');
+        setBalance(newBalance);
+        
+        addHistory('Cash Out', 'opt-2.png',`BDT ${cashoutAmount} to ${agentNumber}.`, new Date())
     }
     else {
         

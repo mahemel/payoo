@@ -22,11 +22,8 @@ const users = [
 ]
 
 loginBtn.addEventListener('click', function() {
-    const phone = document.getElementById('phone');
-    const pin = document.getElementById('otp');
-
-    const phoneNumber = phone.value;
-    const pinNumber = pin.value;
+    const phoneNumber = getValueFromInput('phone');
+    const pinNumber = getValueFromInput('otp');
 
     const userDetail = users.find(user => user.phone === phoneNumber && user.pin === pinNumber);
     console.log(userDetail)
