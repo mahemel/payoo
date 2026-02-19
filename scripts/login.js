@@ -7,18 +7,6 @@ const users = [
         phone: '01675000000',
         pin: '1234'
     },
-    {
-        id: 2,
-        name: 'Fahmin Niaz',
-        phone: '01976111111',
-        pin: '2345'
-    },
-    {
-        id: 3,
-        name: 'Humaeysha Tehrim',
-        phone: '01912121212',
-        pin: '3456'
-    },
 ]
 
 loginBtn.addEventListener('click', function() {
