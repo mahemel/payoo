@@ -4,19 +4,19 @@ const users = [
     {
         id: 1,
         name: 'Mahbub Hasan',
-        phone: '01675252034',
+        phone: '01675000000',
         pin: '1234'
     },
     {
         id: 2,
         name: 'Fahmin Niaz',
-        phone: '01976848086',
+        phone: '01976111111',
         pin: '2345'
     },
     {
         id: 3,
         name: 'Humaeysha Tehrim',
-        phone: '01968734477',
+        phone: '01912121212',
         pin: '3456'
     },
 ]
