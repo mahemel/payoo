@@ -32,7 +32,8 @@ addMoneyBtn.addEventListener('click', function() {
             Your Current Balance is ${newBalance}`)
         setBalance(newBalance);
         
-        addHistory('Add Money', 'opt-1.png', `BDT ${getAmountNumber} from ${getBank}.`, new Date())
+        addHistory('Add Money', 'opt-1.png', `BDT ${getAmountNumber} from ${getBank}.`, new Date());
+        document.getElementById('historyBtn').click();
     }
     else {
         alert('Invalid pin')

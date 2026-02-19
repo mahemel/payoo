@@ -23,8 +23,10 @@ cashoutBtn.addEventListener('click', function(){
 
         alert('Cashout Successful!');
         setBalance(newBalance);
-        
+
         addHistory('Cash Out', 'opt-2.png',`BDT ${cashoutAmount} to ${agentNumber}.`, new Date())
+
+        document.getElementById('historyBtn').click();
     }
     else {
         

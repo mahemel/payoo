@@ -22,6 +22,8 @@ document.getElementById('transfer-btn')
 
             setBalance(newBalance);
             addHistory('Send Money', 'opt-3.png', `BDT ${transferAmount} to ${userAccount}.`, new Date())
+
+            document.getElementById('historyBtn').click();
         } else {
             alert('Invalid Pin');
             return;
